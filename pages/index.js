@@ -27,8 +27,14 @@ export default function Home() {
           <p>Parameters (body params): name(string)</p>
         </li>
         <li>
+          <Link href="/api/todo/list">GET /api/todo/update</Link>
+        </li>
+        <li>
           <p>POST /api/todo/update</p>
           <p>Parameters (body params): id(uuid), isDone(bool)</p>
+        </li>
+        <li>
+          <Link href="/api/todo/list">GET /api/todo/delete</Link>
         </li>
         <li>
           <p>DELETE /api/todo/delete</p>
